@@ -1,4 +1,4 @@
-FROM    stackbrew/fedora
+FROM    fedora:latest
 MAINTAINER  Navid Shaikh <nshaikh@redhat.com>
 RUN     yum -y update
 RUN     yum install -y redis
